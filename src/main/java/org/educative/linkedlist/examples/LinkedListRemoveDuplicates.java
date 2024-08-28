@@ -3,6 +3,18 @@ package org.educative.linkedlist.examples;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * Statement
+ * Given the head of a singly linked list, remove any duplicate nodes from the list in place, ensuring that only one occurrence of each value is retained in the modified list.
+ *
+ * Constraints:
+ *
+ * Let n be the number of nodes in a linked list.
+ *
+ * 0≤ n ≤ 500
+ *
+ * -5 × 10^3 ≤ Node.value ≤ 5 × 10^3
+ */
 @Slf4j
 public class LinkedListRemoveDuplicates {
 

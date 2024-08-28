@@ -1,5 +1,19 @@
 package org.educative.linkedlist.examples;
 
+/**
+ * Statement
+ * Given the head of a linked list, return the nth node from the end of the linked list.
+ *
+ * Constraints:
+ *
+ * The number of nodes in the list is k.
+ *
+ * 1≤ k ≤ 10^3
+ *
+ * 10^3 ≤ Node.data ≤ 10^3
+ *
+ * 1≤ n ≤ k
+ */
 public class LinkedListfindNthNode {
 
     public static LinkedListNode<Integer> findNth(LinkedListNode<Integer> head, int n) {
